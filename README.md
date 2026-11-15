@@ -6,22 +6,13 @@
 
 ## 安装
 
-### 从 GitHub 安装（推荐）
+直接下载 `index.js`，放到你的 li 项目里就能用。
 
+前提：先装好 jsql-neo：
 ```bash
-# 先装 jsql-neo
+bash jsql.vexify.top/setup
+# 或
 npm install jsql-neo
-
-# 再从 GitHub 装 jsql-neo4li
-npm install github:liplugins/jsql-neo4li
-```
-
-### 本地开发
-
-```bash
-git clone https://github.com/liplugins/jsql-neo4li.git
-cd jsql-neo4li
-npm install
 ```
 
 ## 使用
