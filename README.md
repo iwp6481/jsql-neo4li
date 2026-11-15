@@ -6,16 +6,22 @@
 
 ## 安装
 
-### 方式一：一键安装
+### 从 GitHub 安装（推荐）
 
 ```bash
-bash jsql.vexify.top/setup
+# 先装 jsql-neo
+npm install jsql-neo
+
+# 再从 GitHub 装 jsql-neo4li
+npm install github:liplugins/jsql-neo4li
 ```
 
-### 方式二：npm 安装
+### 本地开发
 
 ```bash
-npm install jsql-neo4li
+git clone https://github.com/liplugins/jsql-neo4li.git
+cd jsql-neo4li
+npm install
 ```
 
 ## 使用
